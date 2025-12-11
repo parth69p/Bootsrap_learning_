@@ -1,0 +1,43 @@
+<!-- Bootrap gridsystem is one of the fastest and easiest way to create responsive layout 
+
+Grid System is fully responsive and uses   12 column system (i.e 12 columns per row.)
+
+e.g. col-md (>768 px), col-lg(>992 px) etc
+
+Container , Row, Column
+
+Container is created first which will act as a wrapper for our rows and columns.
+to create a row inside the container we can use row class
+to create a column inside row we can use any of the classes (col-md, col-xl, col-sm, etc)
+
+The columns are the actual area where we will place out content.
+
+
+sm, md, lg, xl, xxl, none(extra small does not have abbreaviation)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-3 bg-info">Parth</div>
+            <div class="col-md-3 "style="background-color:blue">Rohit</div>
+            <div class="col-md-3"style="background-color:yellow">Rahul</div>
+            <div class="col-md-3">Yuvraj</div>
+            
+        </div>
+    </div>
+</body>
+</html>

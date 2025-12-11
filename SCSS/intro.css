@@ -1,0 +1,33 @@
+/* SASS
+
+-sytactically awesome stylesheets
+- In the background it compiles into .css fieldset
+
+- It is pre-processing language which provides syntax for css.
+- It is a super set of CSS
+- It is an opena source preprocessor which is coded in ruby.
+
+It uses methods, logical Statements, directives, built-in functions etc.
+
+SASS files cannot be interepreted by the browser, hence they should be converted to the CSS.
+
+                    SASS                                            SCSS
+
+- which is more concise and does                                - WE want a syntax closer to CSS, requires curly braces
+not use curly braces or semicolons and                            and semicolons which is easier for us to work with who 
+where indentation is essentical we use                            are familiar with CSS.
+SASS 
+
+-File extension is .Sass                                         -File extension is .css
+
+-it is not directly compatible with CSS                          - whereas it is directly compatible with CSS
+
+
+
+variables
+operations
+color functions
+other functions
+string interpolation
+directives
+*/
